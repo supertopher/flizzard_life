@@ -1,4 +1,7 @@
+
 get '/' do
   # Look in app/views/index.erb
-  erb :index
+  haml :index, :layout_engine => :erb
 end
+
+
